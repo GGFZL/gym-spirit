@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+  scroll-behavior: smooth;
+}
+a {
+    outline: none;
+    color: #000;
+    &:hover {
+        color: gray;
+    }
+}
+body {
+    background: {
+        image: url(../images/background.jpg);
+        repeat: no-repeat;
+        position: center;
+        size: cover;
+    }
+}
+.pozadina{
+    background-color: lightgray;
+}
+#cover {
+    padding-top: 80px;
+}
+p{
+    text-align: justify;
+}
+.aboutDva {
+    padding: 0px;
+}
+.leviAbout {
+    padding-right: 0px;
+}
+.desniAbout {
+    padding-left: 0px;
+}
+.borderBottom {
+    border-bottom: 3px solid black;
+}
+.borderBottomWH {
+    border-bottom: 3px solid white;
+}
+.ukloniPadding {
+    padding: 0px;
+}
+.borderTop {
+    border-top: 3px solid black;
+}
+.borderTopWH {
+    border-top: 3px solid white;
+}
+
+.table th {
+    border: none !important;
+}
+#tableContact tr td{
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+@media only screen and (max-width: 992px) {
+    .leviAbout {
+        padding: 0 15px 0 15px;
+    }
+    .desniAbout {
+        padding: 0 15px 0 15px;
+    }
+}
